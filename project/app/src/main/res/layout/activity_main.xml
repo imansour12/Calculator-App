@@ -22,7 +22,7 @@
                 android:layout_weight="1"
                 android:id="@+id/clear"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/clear" />
 
@@ -30,7 +30,7 @@
                 android:layout_weight="1"
                 android:id="@+id/parentheses"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/parentheses" />
 
@@ -38,7 +38,7 @@
                 android:layout_weight="1"
                 android:id="@+id/exponentBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/exponent" />
 
@@ -46,7 +46,7 @@
                 android:layout_weight="1"
                 android:id="@+id/divideBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/divide" />
         </TableRow>
@@ -59,7 +59,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button1"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/one" />
 
@@ -67,7 +67,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/two" />
 
@@ -75,7 +75,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button3"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/three" />
 
@@ -83,7 +83,7 @@
                 android:layout_weight="1"
                 android:id="@+id/multiplyBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/multiply" />
         </TableRow>
@@ -96,7 +96,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button4"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/four" />
 
@@ -104,7 +104,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button5"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/five" />
 
@@ -112,7 +112,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button6"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/six" />
 
@@ -120,7 +120,7 @@
                 android:layout_weight="1"
                 android:id="@+id/subtractBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/subtract" />
         </TableRow>
@@ -133,7 +133,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button7"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/seven" />
 
@@ -141,7 +141,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button8"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/eight" />
 
@@ -149,7 +149,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button9"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/nine" />
 
@@ -157,7 +157,7 @@
                 android:layout_weight="1"
                 android:id="@+id/addBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/add" />
 
@@ -171,7 +171,7 @@
                 android:layout_weight="1"
                 android:id="@+id/plusminusBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/plusMinus" />
 
@@ -179,7 +179,7 @@
                 android:layout_weight="1"
                 android:id="@+id/button0"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/zero" />
 
@@ -187,7 +187,7 @@
                 android:layout_weight="1"
                 android:id="@+id/pointBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/point" />
 
@@ -195,7 +195,7 @@
                 android:layout_weight="1"
                 android:id="@+id/equalsBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/equals" />
         </TableRow>
