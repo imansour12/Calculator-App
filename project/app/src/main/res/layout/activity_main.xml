@@ -286,7 +286,7 @@
         </TableRow>
     </TableLayout>
 
-    <TextView
+    <EditText
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -294,16 +294,22 @@
         android:text="@string/display"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="false"
+        android:inputType="none"
+        tools:ignore="LabelFor" />
 
-    <Button
+    <ImageButton
+        android:background="@drawable/circle"
+        app:srcCompat= "@drawable/backspace"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/backspace"
+        android:contentDescription="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
+        android:layout_margin= "5dp"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
